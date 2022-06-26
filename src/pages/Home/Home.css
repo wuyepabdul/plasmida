@@ -1,0 +1,20 @@
+.home {
+  /* padding:48px */
+}
+
+.gallery-title {
+  padding-top: 50px;
+}
+
+.gallery-title a {
+  color: #77b32e;
+}
+
+.gallery-title a:hover {
+  border-bottom: 1px solid #528612;
+}
+
+.gallery-title:hover {
+  cursor: pointer;
+  /* font-size: 50px; */
+}

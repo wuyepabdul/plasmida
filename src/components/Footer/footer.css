@@ -1,0 +1,37 @@
+.footer {
+  color: #fff;
+  height: 100%;
+  /* padding: 30px; */
+  background-color: #77b32e;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  background-color: #060a01;
+  padding: 10px 20px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.ul-list {
+  list-style-type: none;
+}
+
+.ul-list li {
+  margin: 15px 0;
+  font-size: 16px;
+}
