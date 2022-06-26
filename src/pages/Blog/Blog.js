@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import photo from "../../images/dg-award1.jpg";
+import photo from "../../images/plasmida-logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./blog.css";
+import MetaTags from "react-meta-tags";
 
 const Blog = () => {
   useEffect(() => {
@@ -11,7 +12,26 @@ const Blog = () => {
   }, []);
 
   return (
-    <div class="container mb-4">
+    <div class=" mb-4">
+      <MetaTags>
+        <title>Blog Post</title>
+        <meta
+          name="description"
+          content="The Director General PLASMIDA/Coordinator Result Area 3 for CARES*
+            Mr. Bomkam Ali Wuyep was at the Review Workshop on Recommendations
+            from 2021 BEE Dialogue which was jointly organised by the Plateau
+            State Micro Finance Development Agency (PLASMIDA) and Plateau
+            Investment and Property Development Company Limited (PIPC) in
+            collaboration with PROGRAMMES, MONITORING AND RESULTS DELIVERY
+            OFFICE.and supported by the GIZ SEDIN held on the 23rd June, 2022 at
+            the Nasco Hall, Jos Business School."
+        />
+        <meta
+          property="og:title"
+          content="Review Workshop on Recommendations from 2021 BEE Dialogue"
+        />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
       <div className="row">
         <h2
           data-aos="zoom-in-right"
@@ -19,8 +39,7 @@ const Blog = () => {
           data-aos-duration="2000"
           className="blog-title text-center"
         >
-          {" "}
-          Review Workshop on Recommendations from 2021 BEE Dialogue{" "}
+          MyApp Review Workshop on Recommendations from 2021 BEE Dialogue{" "}
         </h2>
         {/* <div className="col-md-4 col-sm-12">
           <img src={photo} class="img-fluid rounded-start" alt="..." />
