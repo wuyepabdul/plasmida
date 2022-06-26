@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import impact_story from "../../video/impact_story.mp4";
+import impact_story from "../../video/story.mp4";
 import "./Gallery.css";
 import { imagesData } from "../ImagesData";
 import AOS from "aos";
