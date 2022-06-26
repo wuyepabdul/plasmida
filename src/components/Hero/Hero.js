@@ -12,19 +12,16 @@ const Hero = () => {
     <div data-aos="fade-up" data-aos-duration="2000" class="hero-container">
       <div class="hero-carousel">
         <div class="hero-slide s1">
-          <p>Use your creativity</p>
+          <p>Team Work</p>
         </div>
         <div class="hero-slide s2">
-          <p>
-            PLATEAU STATE MICROFINANCE DEVELOPMENT AGENCY Find Value And Build
-            Confidence
-          </p>
+          <p>Resourcefulness</p>
         </div>
         <div class="hero-slide s3">
-          <p>It's just your decision</p>
+          <p>Integrity</p>
         </div>
         <div class="hero-slide s4">
-          <p>Made by RaLe</p>
+          <p>Pasion</p>
         </div>
         <div class="hero-slide s5">
           <p>Use your creativity</p>
@@ -33,7 +30,6 @@ const Hero = () => {
           <p>Use your creativity</p>
         </div>
       </div>
-
     </div>
   );
 };
