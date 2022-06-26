@@ -88,7 +88,7 @@ const Programs = () => {
               Story in pictures
             </h4>
             <div id="image-gallery">
-              <div className="row justify-content-center">
+              <div className="row justify-content-center programs-div">
                 {program.photos.map((img) => (
                   <>
                     <div
@@ -98,7 +98,7 @@ const Programs = () => {
                       data-aos-duration="2000"
                       data-bs-toggle="modal"
                       data-bs-target={`#modal` + img.id}
-                      className="col-lg-3 col-md-6 col-sm-6 col-xs-12 image-div"
+                      className="col-lg-3 col-md-6 col-sm-6 col-xs-12 image-div "
                     >
                       <div
                         className="img-wrapper"

@@ -78,3 +78,14 @@
   border: none;
   /* padding: 0; */
 }
+
+@media screen and (max-width: 574px) {
+  .programs-div {
+    /* background-color: red; */
+  }
+
+  .image-div {
+    /* background-color: #3a9217 !important; */
+    /* width: 350px !important; */
+  }
+}

@@ -58,14 +58,16 @@ const Gallery = () => {
       </h2>
 
       <div className="row">
-        <div className="col">
-          <div
-            className="video-player"
+        <div className="video-player"
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="3000"
+            data-aos-duration="3000">
+          <div
+            
           >
-            <video
+            
+          </div>
+          <video
               controlsList="nodownload"
               onContextMenu={(e) => e.preventDefault()}
               controls
@@ -74,7 +76,6 @@ const Gallery = () => {
             >
               Your browser does not support this video. Use Chrome browser
             </video>
-          </div>
         </div>
       </div>
 

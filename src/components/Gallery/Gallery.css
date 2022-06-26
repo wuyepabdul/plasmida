@@ -1,5 +1,5 @@
-.gallery-container{
-padding-top: 100px;
+.gallery-container {
+  padding-top: 100px;
 }
 
 .video-player {
@@ -65,4 +65,19 @@ padding-top: 100px;
 .modal-header {
   border: none;
   /* padding: 0; */
+}
+
+@media screen and (max-width: 780px) {
+  .video-player {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #3a9217;
+    padding: 0;
+  }
+
+  .video-player video {
+    width: 100%;
+    height: auto;
+  }
 }
