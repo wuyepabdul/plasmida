@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Program.css";
 import { programData1 } from "../../data/programData";
+import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const Programs = () => {
   useEffect(() => {
@@ -39,6 +41,13 @@ const Programs = () => {
 
   return (
     <div className="programs-container">
+      <MetaTags>
+        <title>Programs</title>
+        <meta name="description" content="Our Programs" />
+        <meta property="og:title" content="Program" />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
+
       {programData1.map((program) => (
         <div key={program.id} className="programs mb-4">
           <div>

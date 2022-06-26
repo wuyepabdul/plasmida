@@ -59,3 +59,13 @@ h4 {
 .mt- {
   margin: 0 !important;
 }
+
+@media screen and (max-width:720px) {
+  .photo-div {
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    height: 83%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

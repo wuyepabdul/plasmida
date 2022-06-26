@@ -13,22 +13,22 @@ const AboutMain = () => {
   return (
     <div className="mb-5">
       <div className="row about-row py-5 mb-3">
-        <h1
+        <h2
           data-aos="zoom-in-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="px-5 mb-3 title"
+          className=" mb-4 title text-center"
         >
-          About Us
-        </h1>
+          Welcome to PLASMIDA
+        </h2>
 
         <div
           data-aos="zoom-in-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="col-md-6 "
+          className="col-md-4 col-sm-12"
         >
-          <div className="photo-div p-3">
+          <div className="photo-div ">
             <img src={dgPhoto} className="img-fluid " alt="..." />
           </div>
         </div>
@@ -36,9 +36,8 @@ const AboutMain = () => {
           data-aos="zoom-in-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className="col-md-6 mt-3 welcome "
+          className=" col-md-8 col-sm-12 mt-3 welcome "
         >
-          <h3 className="text-center mb-3">Welcome to PLASMIDA</h3>
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"

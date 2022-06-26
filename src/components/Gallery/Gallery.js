@@ -5,6 +5,8 @@ import { imagesData } from "../ImagesData";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const Gallery = () => {
   useEffect(() => {
@@ -40,6 +42,12 @@ const Gallery = () => {
 
   return (
     <div className="gallery-container">
+      <MetaTags>
+        <title>Gallery</title>
+        <meta name="description" content="Our Story in Pictures" />
+        <meta property="og:title" content="Gallery" />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
       <h2
         data-aos="zoom-in-right"
         data-aos-easing="ease-out-cubic"

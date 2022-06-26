@@ -3,6 +3,8 @@ import dgPhoto from "../../images/dg.jpg";
 import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const AboutMain = () => {
   useEffect(() => {
@@ -79,6 +81,21 @@ const AboutMain = () => {
   ];
   return (
     <div className="mb-5" id="about">
+      <MetaTags>
+        <title>About Us </title>
+        <meta
+          name="description"
+          content="The Agency is strategically positioned, to assist in the human
+          capital development need of the existing and would be Micro, Small
+          and Medium Enterprises (MSME’s) operators, provide linkage services
+          in terms of access to finance, market information, quality control
+          services to the MSME’s, source, initiate and coordinate bilateral or
+          multilateral technical assistance or partnership programmes with
+          local and international organizations and foundations."
+        />
+        <meta property="og:title" content="About Us" />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
       <div className="row py-5 about-row mb-3">
         <h1
           data-aos="zoom-in-right"

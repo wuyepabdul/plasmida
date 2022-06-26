@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "./Contact.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const Contact = () => {
   useEffect(() => {
@@ -10,6 +12,15 @@ const Contact = () => {
   }, []);
   return (
     <div className="contact-container">
+      <MetaTags>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Find out more about us"
+        />
+        <meta property="og:title" content="Contact Us" />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
       <h1
         className="text-center mb-5 pt-5 contact-title"
         data-aos="fade-right"

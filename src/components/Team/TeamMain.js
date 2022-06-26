@@ -14,6 +14,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Card } from "antd";
 import { imagesData, transitionImages } from "../ImagesData";
+import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const TeamMain = () => {
   const { Meta } = Card;
@@ -78,6 +80,15 @@ const TeamMain = () => {
   );
   return (
     <div class="container">
+      <MetaTags>
+        <title>Our Team</title>
+        <meta
+          name="description"
+          content="Meet our Team"
+        />
+        <meta property="og:title" content="Our Team" />
+        <meta property="og:image" content={photo} />
+      </MetaTags>
       <div class="row heading">
         <div class="col-md-12 col-md-offset-3">
           <h2 class="text-center bottom-line team-heading ">Meet our Team</h2>

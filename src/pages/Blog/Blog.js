@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import photo from "../../images/plasmida-logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./blog.css";
 import MetaTags from "react-meta-tags";
+import photo from "../../images/plasmida-logo.png";
 
 const Blog = () => {
   useEffect(() => {
@@ -36,10 +36,10 @@ const Blog = () => {
         <h2
           data-aos="zoom-in-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="blog-title text-center"
         >
-          MyApp Review Workshop on Recommendations from 2021 BEE Dialogue{" "}
+          Review Workshop on Recommendations from 2021 BEE Dialogue{" "}
         </h2>
         {/* <div className="col-md-4 col-sm-12">
           <img src={photo} class="img-fluid rounded-start" alt="..." />
@@ -48,7 +48,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             The Director General PLASMIDA/Coordinator Result Area 3 for CARES*
             Mr. Bomkam Ali Wuyep was at the Review Workshop on Recommendations
@@ -63,7 +63,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             The Review programme is done to assess the level of implementation
             or measure the progress made as regards the promises made to the
@@ -73,7 +73,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             In his opening remarks, the Technical Advisor of the PMRDO welcomed
             the Business Community to the engagement while informing them that
@@ -89,7 +89,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             Presentations were made by the various representatives of MDAs to
             the Business Community and session of questions was allowed and
@@ -100,7 +100,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             He stated that the Business Community was a critical partner in
             progress as they provide over 70% of employment in Plateau and the
@@ -113,7 +113,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             On the issues of Access of Finance, he informed participants that
             the Agency had concluded with two Commercial Banks to provide micro
@@ -125,7 +125,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             For the Access to Markets, a selected MSME number of MSMEs were
             given digital skills training. This is to enable them leverage on
@@ -135,7 +135,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             The Director General also told the Community that financial literacy
             training has been concluded and People Living with Disabilities as
@@ -148,7 +148,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             He reminded participants of the already approved MSME Development
             Fund by His Excellency and talks are ongoing to get Investors to
@@ -160,7 +160,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             In response to a question earlier asked on PLCARES, he emphasized
             the fact that the Governor was really concerned about the plight of
@@ -179,7 +179,7 @@ const Blog = () => {
           <p
             data-aos="zoom-in-right"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             The Director General ended his remark by appreciating the Executive
             Governor of Plateau State Rt. Hon Dr. Simon Bako Lalong for his
