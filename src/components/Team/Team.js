@@ -19,7 +19,6 @@ const Team = () => {
     AOS.refresh();
   }, []);
 
-
   return (
     <div className="team">
       <Link to="departments">
@@ -40,7 +39,7 @@ const Team = () => {
         <div className="my-carousel">
           <div className="my-carousel-content">
             <div className="my-carousel-item">
-              <img src={head7} alt="pic" />
+              <img src={head2} alt="pic" />
               <h3 className="text-center">Director General</h3>
             </div>
             <div className="my-carousel-item">
@@ -69,7 +68,7 @@ const Team = () => {
               <h3 className="text-center">Ag Head MSME</h3>
             </div>
             <div className="my-carousel-item">
-              <img src={head2} alt="pic" />
+              <img src={head7} alt="pic" />
               <h3 className="text-center">Director Monitory and Evaluation</h3>
             </div>
             <div className="my-carousel-item">
